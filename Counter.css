@@ -1,0 +1,31 @@
+.counter {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.counter h1 {
+    font-size: 40px;
+}
+
+.counter h2 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+}
